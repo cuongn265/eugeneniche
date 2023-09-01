@@ -10,8 +10,7 @@ export default defineConfig({
   server: {
     port: 4321,
   },
-  site: "https://cuongn265.github.io",
-  base: "/eugeneniche",
+  site: "https://blog.ezjpeg.app",
   integrations: [
     tailwind({
       config: {
