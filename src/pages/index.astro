@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Eugenenah</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -40,21 +40,21 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </a>
 
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
+      <div class="container">
+        <p>
+          My name is Eugene and I'm excited to share my thoughts and
+          experiences with you.
+        </p>
+        <p>
+          In my first post, I'll be discussing How to use dotenv in VSCode. I hope you
+          find it informative and engaging. As I continue to write, I'll cover a
+          variety of topics related to it.
+        </p>
+        <p>
+          Thank you for visiting my blog and I look forward to connecting with
+          you!
+        </p>
+      </div>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (

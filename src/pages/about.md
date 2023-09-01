@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "About"
+draft: true
 ---
 
 AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
@@ -32,5 +33,5 @@ Here are certain features of this site.
 - sitemap & rss feed
 - highly customizable
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
+If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).
 Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
