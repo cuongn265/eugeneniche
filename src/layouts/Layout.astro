@@ -1,7 +1,7 @@
 ---
 import { SITE } from "@config";
 import "@styles/base.css";
-import { Plausible } from 'astro-analytics';
+import { Plausible, GoogleAnalytics } from 'astro-analytics';
 
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -79,6 +79,7 @@ const socialImageURL = new URL(
 
     <script is:inline src="/toggle-theme.js"></script>
     <Plausible domain="blog.ezjpeg.app" src="https://plausible.io/js/script.js" />
+    <GoogleAnalytics id="G-HLC9QSQ8H7" />
   </head>
   <body>
     <slot />
