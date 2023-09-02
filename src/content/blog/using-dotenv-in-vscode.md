@@ -1,19 +1,15 @@
 ---
 author: Eugenenah
 pubDatetime: 2023-09-01T15:22:00Z
-title: Using dotenv in VsCode
-postSlug: using-dotenv-in-vscode
+title: Prevent env from being leaked in VSCode
+postSlug: prevent-env-from-being-leaked-in-vscode
 featured: true
 draft: false
 tags:
   - docs
 ogImage: ""
-description: Some rules & recommendations for using dotenv in VSCode
+description: Learn how to use dotenv VSCode extension to hide environment content.
 ---
-
-import { Image } from 'astro:assets';
-
-Here are some rules/recommendations, tips & ticks for using dotenv in VSCode.
 
 ## Table of contents
 
