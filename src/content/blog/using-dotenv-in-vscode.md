@@ -15,34 +15,34 @@ Here are some rules/recommendations, tips & ticks for using dotenv in VSCode.
 
 ## Table of contents
 
-# How to Use Dotenv Extension in VSCode
+# How to use dotenv VSCode Extension to Hide Environment Content
 
-Are you looking for an easy way to access environment variables in VSCode? If so, it doesn’t get much easier than using the Dotenv extension. In this blog post, we’ll discuss how to use this handy tool to make working with environment variables a breeze.
+The dotenv VSCode extension is a convenient and organized way to keep your application's environment variables securely hidden. It helps keep your sensitive information secure, while still allowing you to access it easily. In this blog post, we'll walk you through the steps on how to use the dotenv VSCode extension to hide environment content.
 
-## What Is the Dotenv Extension?
+## Step 1: Install the Extension
 
-The Dotenv extension is a popular extension for VSCode that allows you to easily manage environment variables. It automatically reads and saves environment variables from a `.env` file and makes them available in the editor window. This makes it easier to manage environment variables, as well as allowing you to easily switch between different environments.
+The first step is to install the dotenv VSCode extension. You can do this by going to the Extensions tab in VSCode (the bottom left-hand corner), and then searching for the dotenv extension or you can visit VSCode Marketplace here: https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode. Once you've found it, click "Install". This will automatically install the dotenv extension and add it to your VSCode environment.
 
-## How to Install and Use the Extension
+<div>
+  <img src="/assets/extension.png" class=":w-1/2 mx-auto" alt="coding dev illustration">
+</div>
 
-Using the Dotenv extension is easy. Here are the steps you’ll need to follow:
+## Step 2: Create a .env File
 
-1. Start by downloading the extension from the Visual Studio Marketplace.
-2. Once downloaded, open the `.env` file in VSCode.
-3. Add environment variable definitions to the `.env` file.
-4. Use the environment variables in your code.
+Now that you've installed the dotenv VSCode extension, you'll need to create a .env file. This will store all of your environment variables. To create a .env file, go to the File tab (under the home button) and click "New File". Then name your file (for example, ".env").
 
-Once you’ve set up the environment variables, you can access them in your code just by typing in their names. They’ll be automatically loaded, and they’ll be accessible from any project or file.
+## Step 3: Add Environment Variables
 
-## Benefits of Using the Dotenv Extension
+After you've created your .env file, you'll need to add your environment variables to it. You can do this by opening the .env file and typing in the key/value pairs, like so:
 
-Using the Dotenv extension offers a number of benefits, including:
+```bash
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PASSWORD=password123
+```
 
-- Easily manage environment variables across projects.
-- Quickly switch between different environment variables.
-- Automatically load environment variables in the editor window.
-- No need to manually specify environment variables in the code.
+## Step 4: Enable Auto-Cloaking
 
-## Conclusion
+The last step is to enable auto-cloaking. This will make sure that any sensitive information in your .env file is securely hidden. To enable auto-cloaking, open the .env file and click on the "Toggle auto-cloaking" text in the top left-hand corner of the window. This will enable auto-cloaking for your .env file, which will help keep your sensitive information secure.
 
-The Dotenv extension is a great way to make working with environment variables in VSCode much easier. It’s simple to install and use, and it offers some great benefits that can help make your workflows faster and more efficient. If you’re looking for an easy way to manage environment variables, the Dotenv extension is definitely worth checking out..
+And that's it! Now you know how to use the dotenv VSCode extension to hide environment content. With the dotenv extension, your environment variables are securely hidden while still allowing you to access them easily
