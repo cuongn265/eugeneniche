@@ -1363,6 +1363,11 @@ astral-regex@^2.0.0:
   resolved "https://registry.npmjs.org/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
+astro-analytics@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/astro-analytics/-/astro-analytics-2.6.0.tgz#a0b28c3d6d9e4be8b0a082423242a40cfdbccdab"
+  integrity sha512-H7pnYcHLMLATH2ilKEFqZVQqw4NlEQs72I9VYDrSIGNyjm+Abmqq7RwgxpfCpG5sszo6lGNaKhPlHmftG2M42A==
+
 astro-eslint-parser@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmjs.org/astro-eslint-parser/-/astro-eslint-parser-0.14.0.tgz#a8ce2f62ce683def4b975acbf9388be99c732680"
