@@ -7,7 +7,7 @@ featured: true
 draft: false
 tags:
   - docs
-ogImage: ""
+ogImage: "/images/extension.png"
 description: Learn how to use dotenv VSCode extension to hide environment content.
 ---
 
