@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Eugenenah",
   desc: "Small niche of eugene and his dev journey",
   title: "EugeneNiche",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "astropaper-og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
