@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     port: 4321,
   },
-  site: "https://eugeneniche.pages.dev/", // replace this with your deployed domain
+  site: "https://ezjpeg.app/", // replace this with your deployed domain
 
   integrations: [
     tailwind({
