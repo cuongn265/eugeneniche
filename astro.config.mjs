@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     port: 4321,
   },
-  site: "ezjpeg.app",
+  site: "https://ezjpeg.app",
   integrations: [
     tailwind({
       config: {
